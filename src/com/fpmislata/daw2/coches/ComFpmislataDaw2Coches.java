@@ -73,7 +73,7 @@ public class ComFpmislataDaw2Coches {
         System.out.println("--------------------");
         
         for (String c:mapCoche.keySet()) {
-            if (mapCoche.get(c).getMarca()==mapCoche.get(c).getMarca().FORD) {
+            if (mapCoche.get(c).getMarca()==Marca.FORD) {
                 System.out.println(mapCoche.get(c).getDniPropietario() + " " + mapCoche.get(c).getMarca() + " " + mapCoche.get(c).getModelo());
             }
         }
